@@ -1,13 +1,12 @@
 <template>
-  <div class="login">
-    <h1>登录</h1>
+  <div class="demo">
+    <h1>demo</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Login',
-  layout: 'centered'
+  name: 'Index'
 }
 </script>
 

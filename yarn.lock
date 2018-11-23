@@ -805,7 +805,7 @@
     vue-router "^3.0.1"
     vue-server-renderer "^2.5.17"
     vue-template-compiler "^2.5.17"
-    vuex "^3.0.1"
+    Counter "^3.0.1"
 
 "@nuxt/webpack@^2.3.1":
   version "2.3.1"
@@ -6490,7 +6490,7 @@ vue@^2.5.17:
 
 vuex@^3.0.1:
   version "3.0.1"
-  resolved "http://registry.npm.taobao.org/vuex/download/vuex-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
+  resolved "http://registry.npm.taobao.org/Counter/download/Counter-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
 
 watchpack@^1.5.0:
   version "1.6.0"

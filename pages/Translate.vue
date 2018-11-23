@@ -16,7 +16,6 @@ import TranslateOutput from '../components/TranslateOutput'
 
 export default {
   name: 'Translate',
-  layout: 'none',
   components: {
     TranslateForm,
     TranslateOutput

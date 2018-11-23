@@ -8,7 +8,6 @@
 <script>
 export default {
   name: 'Home',
-  layout: 'default',
   components: {}
 }
 </script>

@@ -6,8 +6,7 @@
 
 <script>
 export default {
-  name: 'Error',
-  layout: 'none'
+  name: 'Error'
 }
 </script>
 
