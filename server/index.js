@@ -2,6 +2,8 @@ const Koa = require('koa')
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 
+import cityInterface from './interface/city'
+
 const app = new Koa()
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
@@ -19,6 +21,9 @@ async function start() {
     const builder = new Builder(nuxt)
     await builder.build()
   }
+  // 固定写法. 不要乱动
+  app.use(cityInterface.routes())
+  app.use(cityInterface.allowedMethods())
 
   app.use(ctx => {
     ctx.status = 200 // koa defaults to 404 when it sees that status is unset
